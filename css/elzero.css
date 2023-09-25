@@ -626,6 +626,7 @@ ul {
   box-shadow: 0 2px 4px rgb(0 0 0 / 7%);
   border-radius: 6px;
   position: relative;
+  margin-bottom: 20px;
 }
 .testimonials .box img {
   position: absolute;
@@ -1166,11 +1167,11 @@ ul {
   margin-bottom: 30px;
 }
 .pricing .box .price {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .pricing .box .amount {
   display: block;
-  font-size: 60px;
+  font-size: 35px;
   font-weight: bold;
   margin-bottom: 5px;
   color: var(--main-color);
@@ -1183,7 +1184,7 @@ ul {
 }
 .pricing .box ul li {
   display: flex;
-  padding: 20px;
+  padding: 10px;
   border-top: 1px solid #eee;
 }
 .pricing .box ul li::before {
