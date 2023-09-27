@@ -1566,8 +1566,8 @@ ul {
   display: block;
 }
 .footer .footer-gallery img {
-  width: 78px;
-  border: 3px solid white;
+  width: 330px;
+  /* border: 3px solid white; */
   margin: 2px;
 }
 .footer .copyright {
