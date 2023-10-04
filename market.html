@@ -167,6 +167,59 @@
     padding: 10px;
     color: #ff3d00;
 }
+/* five */
+.card5 {
+    background-color: white;
+    padding: 0px 20px;
+    border-radius: 5px;
+    line-height: 2;
+}
+  .card5 #ch5 {
+    display: none;
+}
+  .card5 #ch5:checked ~ .ah5 {
+    display: block;
+}
+  .card5 #ch5:checked ~ .as5 {
+    display: none;
+}
+  .card5 .ah5 {
+    display: none;
+}
+  .card5 .as5 {
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    color: #ff3d00;
+}
+.card5 {
+    background-color: white;
+    padding: 0px 20px;
+    border-radius: 5px;
+    line-height: 2;
+}
+  .card5 #ch5 {
+    display: none;
+}
+  .card5 #ch5:checked ~ .ah5 {
+    display: block;
+}
+  .card5 #ch5:checked ~ .as5 {
+    display: none;
+}
+  .card5 .ah5 {
+    display: none;
+}
+  .card5 .as5 {
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    color: #ff3d00;
+}
 </style>
   </head>
   <body>
@@ -317,6 +370,35 @@
         </div>
       </div>
         <!-- five -->
+        <!-- four -->
+        <div class="ads" style="padding: 15px;
+        background-color: white;
+        box-shadow: 0px 12px 20px 0px rgb(0 0 0 / 13%), 0px 2px 4px 0px rgb(0 0 0 / 12%);text-align: center;">
+        
+        <div class="image" style="position: relative;
+          overflow: hidden;">
+        <img class="mySlides5" src="new/20.jpg">
+        <img class="mySlides5" src="new/21.jpg">
+        <img class="mySlides5" src="new/22.jpg">
+        <button class="w3-button w3-display-left" onclick="plusDiv5(-1)">&#10094; التالى</button>
+        <button class="w3-button w3-display-right" onclick="plusDiv5(+1)">السابق&#10095;</button>
+        <div class="card5">
+          <input id="ch5" type="checkbox">
+          <h2> شقه للايجار  </h2>
+          <p>
+            السعوديه الرياض شقه للايجار في حي اليرموك غرفتين وصاله وحمام ومطبخ ومكيفات راكب
+الايجار سنوي 20الف شام المياه وكهرب وفي تفاوض في السعر
+          </p>
+          <div class="ah5">
+              <p>للتوصل *******  </p>
+              <label class="as5" for="ch5">عرض اقل</label>  
+          </div>
+          <label class="as5" for="ch5">عرض المزيد</label>
+        </div>
+        <a href="https://wa.me/+201016478903">اطلب الان</a>
+        </div>
+      </div>
+        <!-- six -->
       </div>
     </div>
     <!-- Start Footer -->
@@ -462,5 +544,24 @@
       x[slideIndex-1].style.display = "block";
     }</script>
 <!-- four -->
+<script>
+  var slideIndex = 1;
+    showDiv4(slideIndex);
+    
+    function plusDiv5(n) {
+      showDiv5(slideIndex += n);
+    }
+    
+    function showDiv5(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides5");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length} ;
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
+    }</script>
+<!-- five -->
   </body>
 </html>
