@@ -220,6 +220,59 @@
     padding: 10px;
     color: #ff3d00;
 }
+/* six */
+.card6 {
+    background-color: white;
+    padding: 0px 20px;
+    border-radius: 5px;
+    line-height: 2;
+}
+  .card6 #ch6 {
+    display: none;
+}
+  .card6 #ch6:checked ~ .ah6 {
+    display: block;
+}
+  .card6 #ch6:checked ~ .as6 {
+    display: none;
+}
+  .card6 .ah6 {
+    display: none;
+}
+  .card6 .as6 {
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    color: #ff3d00;
+}
+.card6 {
+    background-color: white;
+    padding: 0px 20px;
+    border-radius: 5px;
+    line-height: 2;
+}
+  .card6 #ch6 {
+    display: none;
+}
+  .card6 #ch6:checked ~ .ah6 {
+    display: block;
+}
+  .card6 #ch6:checked ~ .as6 {
+    display: none;
+}
+  .card6 .ah6 {
+    display: none;
+}
+  .card6 .as6 {
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    color: #ff3d00;
+}
 </style>
   </head>
   <body>
@@ -399,6 +452,32 @@
         </div>
       </div>
         <!-- six -->
+        <div class="ads" style="padding: 15px;
+        background-color: white;
+        box-shadow: 0px 12px 20px 0px rgb(0 0 0 / 13%), 0px 2px 4px 0px rgb(0 0 0 / 12%);text-align: center;">
+        
+        <div class="image" style="position: relative;
+          overflow: hidden;">
+        <img class="mySlides6" src="new/23.jpg">
+        <img class="mySlides6" src="new/24.jpg">
+        <img class="mySlides6" src="new/25.jpg">
+        <img class="mySlides6" src="new/26.jpg">
+        <button class="w3-button w3-display-left" onclick="plusDiv6(-1)">&#10094; التالى</button>
+        <button class="w3-button w3-display-right" onclick="plusDiv6(+1)">السابق&#10095;</button>
+        <div class="card6">
+          <input id="ch6" type="checkbox">
+          <h2>  السياره مارسيدسE200   2019  </h2>
+          <p>السياره مارسيدس النوع E200موديل 2019الوكيل سعودي؛ العداد: 86000kmالسعر 80000ألف كاش فقط نعطيك ضمان لمده عام كامل او 20الف kmقابل للتمديد؟؟؟شركه حمايه السعودية محرك *جربكس*الدفرنس*نضام تكييف*ثلاجه المحرك*علبه الفرامل*علبه الدريكسون </p>
+          <div class="ah6">
+              <p>برز المواصفات&وجنوط AMGسقف بانوراما دخول ذكي بصمه شنطت كهرباء ابواب شفط شمعات زينون اسطبات اماميه وخلفيه وكشافات LEDكاميرات محيطيه  360درجه رادار مانع تصادم حساسات اماميه وخلفيه نقط عمياء سنتر لوك زجاج ومرايا كهرباء كراسي أماميه كهرباء مقاعد تسخين تبريد +مساج +ذاكرةللمقاعد تحكم طاره للمسجل ـللهاتفــ مثبت سرعه _تعشيق_F1 شاشه نفجيشن _بلوتوث _راديو _USB _aux كار بلاي أضاءه متعدده الالوان تحكم بأداء المحرك بعده وضعيات نظام توفير البنزين ECO ستاره خلفيه كهرباء ديكور خشبي كلاسيكي بلاك مع أكسسوار كروم عداد ديجيتال مع كربون فايبر _وغيرها من الموصفات المعروفه لهذه0592145762   </p>
+              <label class="as6" for="ch6">عرض اقل</label>  
+          </div>
+          <label class="as6" for="ch6">عرض المزيد</label>
+        </div>
+        <a href="https://wa.me/+201016478903">اطلب الان</a>
+        </div>
+      </div>
+        <!-- seven -->
       </div>
     </div>
     <!-- Start Footer -->
@@ -563,5 +642,24 @@
       x[slideIndex-1].style.display = "block";
     }</script>
 <!-- five -->
+<script>
+  var slideIndex = 1;
+    showDiv6(slideIndex);
+    
+    function plusDiv6(n) {
+      showDiv6(slideIndex += n);
+    }
+    
+    function showDiv6(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides6");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length} ;
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
+    }</script>
+<!-- six -->
   </body>
 </html>
