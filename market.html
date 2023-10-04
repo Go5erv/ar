@@ -114,6 +114,59 @@
     padding: 10px;
     color: #ff3d00;
 }
+/* four */
+.card4 {
+    background-color: white;
+    padding: 0px 20px;
+    border-radius: 5px;
+    line-height: 2;
+}
+  .card4 #ch4 {
+    display: none;
+}
+  .card4 #ch4:checked ~ .ah4 {
+    display: block;
+}
+  .card4 #ch4:checked ~ .as4 {
+    display: none;
+}
+  .card4 .ah4 {
+    display: none;
+}
+  .card4 .as4 {
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    color: #ff3d00;
+}
+.card4 {
+    background-color: white;
+    padding: 0px 20px;
+    border-radius: 5px;
+    line-height: 2;
+}
+  .card4 #ch4 {
+    display: none;
+}
+  .card4 #ch4:checked ~ .ah4 {
+    display: block;
+}
+  .card4 #ch4:checked ~ .as4 {
+    display: none;
+}
+  .card4 .ah4 {
+    display: none;
+}
+  .card4 .as4 {
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    color: #ff3d00;
+}
 </style>
   </head>
   <body>
@@ -232,6 +285,38 @@
         </div>
       </div>
         <!-- four -->
+        <div class="ads" style="padding: 15px;
+        background-color: white;
+        box-shadow: 0px 12px 20px 0px rgb(0 0 0 / 13%), 0px 2px 4px 0px rgb(0 0 0 / 12%);text-align: center;">
+        
+        <div class="image" style="position: relative;
+          overflow: hidden;">
+        <img class="mySlides4" src="new/16.jpg">
+        <img class="mySlides4" src="new/17.jpg">
+        <img class="mySlides4" src="new/18.jpg">
+        <img class="mySlides4" src="new/19.jpg">
+        <button class="w3-button w3-display-left" onclick="plusDiv4(-1)">&#10094; التالى</button>
+        <button class="w3-button w3-display-right" onclick="plusDiv4(+1)">السابق&#10095;</button>
+        <div class="card4">
+          <input id="ch4" type="checkbox">
+          <h2>  كونا واجن 2023</h2>
+          <p>للبيع 
+            كونا واجن 
+            مدل 2023
+            الموتر على شرط الفحص 
+            ستماره مجدد 
+            السوم كاش 50الف 
+            متاح قصاد</p>
+          <div class="ah4">
+              <p>للتوصل 0592118543  </p>
+              <label class="as4" for="ch4">عرض اقل</label>  
+          </div>
+          <label class="as4" for="ch4">عرض المزيد</label>
+        </div>
+        <a href="https://wa.me/+201016478903">اطلب الان</a>
+        </div>
+      </div>
+        <!-- five -->
       </div>
     </div>
     <!-- Start Footer -->
@@ -338,7 +423,7 @@
           }
           x[slideIndex-1].style.display = "block";
         }</script>
-<!-- one -->
+<!-- two -->
 <script>
   var slideIndex = 1;
     showDiv3(slideIndex);
@@ -358,5 +443,24 @@
       x[slideIndex-1].style.display = "block";
     }</script>
 <!-- three -->
+<script>
+  var slideIndex = 1;
+    showDiv4(slideIndex);
+    
+    function plusDiv4(n) {
+      showDiv4(slideIndex += n);
+    }
+    
+    function showDiv4(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides4");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length} ;
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
+    }</script>
+<!-- four -->
   </body>
 </html>
