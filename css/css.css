@@ -788,6 +788,7 @@ ul {
 .services .box > h3 {
   text-align: center;
   margin: 20px 0 40px;
+  padding: 0 10px;
   font-size: 25px;
   color: var(--main-color);
 }
@@ -824,6 +825,12 @@ ul {
   transform: skewX(-30deg);
 }
 .services .box .info a {
+  color: var(--main-color);
+}
+.services .box h4 {
+  text-align: center;
+  margin: 20px 0 40px;
+  font-size: 25px;
   color: var(--main-color);
 }
 /* End Services */
@@ -871,6 +878,7 @@ ul {
 .our-skills .skill .the-progress {
   height: 30px;
   background-color: #eee;
+  border-radius: 15px;
   position: relative;
 }
 .our-skills .skill .the-progress span {
@@ -878,6 +886,7 @@ ul {
   left: 0;
   top: 0;
   height: 100%;
+  border-radius: 15px;
   background-color: var(--main-color);
   transition: width 0.5s linear;
 }
@@ -1566,8 +1575,8 @@ ul {
   display: block;
 }
 .footer .footer-gallery img {
-  width: 330px;
-  /* border: 3px solid white; */
+  width: 78px;
+  border: 3px solid white;
   margin: 2px;
 }
 .footer .copyright {
