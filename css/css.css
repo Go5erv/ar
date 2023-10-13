@@ -487,6 +487,16 @@ ul {
 .gallery .box .image:hover img {
   transform: rotate(5deg) scale(1.1);
 }
+@media (min-width: 551px) {
+  .out {
+    width: 360px;
+  }
+}
+@media (max-width: 550px) {
+    .out {
+      width: 100%;
+  }
+}
 /* End Gallery */
 /* Start Features */
 .features {
