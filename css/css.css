@@ -340,7 +340,7 @@ ul {
 } */
 .landing .image img {
   position: relative;
-  width: 500px;
+  max-width: 100%;
   animation: up-and-down 5s linear infinite;
   border-radius: 20px;
   margin-top: 35px;
@@ -352,9 +352,9 @@ ul {
     flex-flow: column;
   }
 }
-@media (max-width: 991px) {
-  .landing .container .image {
-    width: 100%;
+@media (min-width: 500px) {
+  .landing .container img {
+    width: 500px;
   }
 }
 /* @media (max-width: 991px) {
