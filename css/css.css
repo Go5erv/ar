@@ -926,6 +926,10 @@ ul {
     margin: 0 0 50px;
   }
 }
+.work-steps .info {
+  display: flex;
+  text-align: center;
+}
 .work-steps .info .box {
   background-color: #f6f5f5;
   padding: 30px;
