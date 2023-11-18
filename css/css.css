@@ -1676,4 +1676,9 @@ ul {
     background-image: url("../imgs/discount-background2.jpg");
   }
 }
+@media (max-width: 500px) {
+  .boxinfo img {
+    width:100%;
+  }
+}
 /* End Animation */
