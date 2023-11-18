@@ -1677,7 +1677,7 @@ ul {
   }
 }
 @media (max-width: 500px) {
-  .boxinfo img {
+  .infobox img {
     width:100%;
   }
 }
