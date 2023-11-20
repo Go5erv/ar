@@ -983,6 +983,11 @@ ul {
   margin: 10px 0 0;
   font-size: 18px;
 }
+@media(max-width: 500px) {
+  .infobox img {
+    width: 100%;
+  }
+}
 /* End Work Steps */
 /* Start Events */
 .events {
@@ -1674,11 +1679,6 @@ ul {
   }
   50% {
     background-image: url("../imgs/discount-background2.jpg");
-  }
-}
-@media (max-width: 500px) {
-  .infobox img {
-    width:100%;
   }
 }
 /* End Animation */
