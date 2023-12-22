@@ -27,6 +27,7 @@ ul {
   padding: 0;
 }
 .container {
+  direction: ltr;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
